@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-A playwright named Louise requested information in regards to plays she had prior involvement in fundraising. She specifically wants to know the outcomes of fundraising campaigns based on their launch date.
+A playwright named Louise requested an analysis of a dataset detailing information for a variety of productions. This request followed her fundraising campaign for her play *Fever*. She specifically wants to know the outcomes of previous campaigns and how this related to their launch dates and fundraising goals.
 
 ### Purpose
 To determine trends in the Kickstarter dataset between fundraising goal vs launch date as well as fundraising goal vs outcomes.
@@ -101,6 +101,14 @@ Based on this conclusion, it might be helpful to stick to goal ranges of $0-$14,
 
 One limitation of this dataset is potentially subjectivity in the "outcomes" column. Each cell in this column has one of 4 categories; successful, live, failed, or canceled. None of these categories are mathematically determined from the data. How exactly is "successful" defined? Is it when pledges exceed/meet goals? Is it when pledges reach a certain value? Similar questions can be applied to the failed category. Without the objectivity of a calculation in the outcomes column, all of the conclusions made based off of this information may not be an accurate representation of success.
 
+Of note - just by scanning the outcomes column, it appears that "succesful" is defined as goal >= pledge and that "failed" is goal < pledged, but without these cells being calculated from the goal and pledged columns, it possible these statements aren't true.
 
+Another limitation of this dataset is that it doesn't currently account for specifics about the pledged amounts for each production. The only information that can be tied to the pledged amounts is the backers_count and the Average Donation columns. These columns suggest the number of persons involved in the corresponding pledge amounts and on average how much they donated. This does not look at the spread of the donations which could provide additional insight. You could answer questions like, "Who are the top donators (outliers)? or "What's the most common donation (median)? This could give a clearer picture of how these productions actually reached their goals.
 
 - What are some other possible tables and/or graphs that we could create?
+
+1) A table overviewing the statistics of the Average Donation column of successful and failed productions to have a better understanding of how backers were pledging in these circumstances.
+
+2) A pivot chart (line graph) of backers_count vs. launch date (filtering by Parent category and Years) to see what times of year had the most persons donating.
+
+3) A pivot chart of the "Outcomes Based on Goals" data, but filtering for country. This could provide insight for successful goal range categories by country.
