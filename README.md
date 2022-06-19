@@ -27,6 +27,10 @@ This pivot table was then used to generate the following chart:
 
 ### Analysis of Outcomes Based on Goals
 
+A table was created in a new worksheet on the Kickstarter file which was organized as such and contained the following information:
+![Outcomes_vs_Goals Table](https://user-images.githubusercontent.com/107309793/174460531-68a11db5-e84b-4f2c-b40b-d1670ce82dbd.png)
+The table organizes all of the successful, failed, and canceled plays into specific 
+
 ### Challenges and Difficulties Encountered
 
 Deliverable 1 Challenges
