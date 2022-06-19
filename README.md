@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-A playwright named Louise requested an analysis of a dataset detailing information for a variety of productions. This request followed her fundraising campaign for her play *Fever*. She specifically wants to know the outcomes of previous campaigns and how this related to their launch dates and fundraising goals.
+A playwright named Louise requested an analysis of a dataset detailing information for a variety of productions. This request followed her fundraising campaign for her play *Fever*. She specifically wants to know the outcomes of theater productions of previous campaigns and how this related to their launch dates and fundraising goals.
 
 ### Purpose
 To determine trends in the Kickstarter dataset between fundraising goal vs launch date as well as fundraising goal vs outcomes.
